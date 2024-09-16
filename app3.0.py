@@ -3,10 +3,9 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+st.header('Analisis de datos de vehiculos')
 # Cargar los datos
 car_data = pd.read_csv('vehicles_us3.0.csv')
-
-st.header('Analisis de datos de vehiculos')
 
 
 # Crear un botón para construir un histograma
